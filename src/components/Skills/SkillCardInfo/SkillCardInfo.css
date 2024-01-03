@@ -1,0 +1,36 @@
+.skills-card-info {
+  min-height: 23rem;
+  border-radius: 0.65rem;
+  border: 1.5px solid #6751b9;
+  background: rgba(22, 17, 47, 0.398);
+  backdrop-filter: blur(1rem);
+}
+
+.skills-card-info h6 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.8rem 2rem;
+  background: linear-gradient(180deg, #aa94fe 0%, #7c5fe6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 1.5px solid #6751b9;
+}
+
+.skills-info-content {
+  padding: 2rem;
+}
+
+.skill-info p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.skill-progress {
+  width: 100%;
+  height: 0.5rem;
+  background: #382e68;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  overflow: hidden;
+}
