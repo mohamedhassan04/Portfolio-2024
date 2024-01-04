@@ -1,35 +1,34 @@
 import React from "react";
 import "./Hero.css";
 
-const Hero = () => {
+const Hero = ({ content }) => {
   return (
-    <section className="hero-container">
+    <section className="hero-container" id="home">
       <div className="hero-content">
-        <h2>Imaginer une expérience numérique qui inspire</h2>
-        <p>
-          Développeur backend et Tech-lead . Passionné par le monde du web, du
-          design et des nouvelles technologies, je vise à apporter ma
-          contribution grâce à mes solutions créatives et innovantes.
-        </p>
+        <h2>{content.slogan}</h2>
+        <p>{content.slogan2}</p>
       </div>
 
       <div className="hero-img">
         <div>
           <div className="tech-icon">
-            <img src="./assets/img05.png" alt="" />
+            <img src="./assets/img05.png" alt="" loading="lazy" />
           </div>
-          <img src="./assets/img09.jpg" alt="" />
+          <img src="./assets/img09.jpg" alt="" loading="lazy" />
         </div>
 
         <div>
           <div className="tech-icon">
-            <img src="./assets/img06.png" alt="" />
+            <img src="./assets/img06.png" alt="" loading="lazy" />
           </div>
           <div className="tech-icon">
-            <img src="./assets/img07.png" alt="" />
+            <img src="./assets/img07.png" alt="" loading="lazy" />
           </div>
           <div className="tech-icon">
-            <img src="./assets/img08.png" alt="" />
+            <img src="./assets/img08.png" alt="" loading="lazy" />
+          </div>
+          <div className="tech-icon">
+            <img src="./assets/img12.png" alt="" loading="lazy" />
           </div>
         </div>
       </div>

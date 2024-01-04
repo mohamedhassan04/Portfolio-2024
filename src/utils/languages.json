@@ -1,0 +1,26 @@
+{
+  "english": {
+    "home": "Home",
+    "skills": "Skills",
+    "workExperience": "Experience",
+    "contact": "Contact",
+    "download": "Download CV",
+    "slogan": "Imagine a digital experience that inspires",
+    "slogan2": "Backend developer and Tech-lead . Passionate about the world of web, design and new technologies, I aim to make my contribution through my creative and innovative solutions.",
+    "technicalSkills": "Technical Skills",
+    "title": "Tools",
+    "softSkills": "Soft Skills"
+  },
+  "french": {
+    "home": "Acceuil",
+    "skills": "Compétences",
+    "workExperience": "Expérience",
+    "contact": "Contact",
+    "download": "Télécharger CV",
+    "slogan": "Imaginer une expérience numérique qui inspire",
+    "slogan2": "Développeur backend et Tech-lead . Passionné par le monde du web, du design et des nouvelles technologies, je vise à apporter ma contribution grâce à mes solutions créatives et innovantes.",
+    "technicalSkills": "Compétence Technique",
+    "tools": "Outils",
+    "softSkills": "Compétences Générales"
+  }
+}

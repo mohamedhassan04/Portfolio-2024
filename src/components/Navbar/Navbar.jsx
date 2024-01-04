@@ -4,7 +4,7 @@ import { CiMenuBurger } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
 import NavMobile from "./NavMobile/NavMobile";
 
-const Navbar = () => {
+const Navbar = ({ setLanguage, content, language }) => {
   /* State to open and close mobile navbar */
 
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <>
-      <NavMobile isOpen={isOpen} toggleMenu={toggleMenu} />
+      <NavMobile isOpen={isOpen} toggleMenu={toggleMenu} content={content} />
 
       <nav className="nav-wrapper">
         <div className="nav-content">
@@ -26,20 +26,39 @@ const Navbar = () => {
           </div>
           <ul>
             <li>
-              <a className="menu-item">Acceuil</a>
+              <a className="menu-item" href="#home">
+                {content.home}
+              </a>
             </li>
             <li>
-              <a className="menu-item">Compétences</a>
+              <a className="menu-item" href="#skills">
+                {content.skills}
+              </a>
             </li>
             <li>
-              <a className="menu-item">Expérience</a>
+              <a className="menu-item" href="#experience">
+                {content.workExperience}
+              </a>
             </li>
             <li>
-              <a className="menu-item">Contact</a>
+              <a className="menu-item" href="#contact">
+                {content.contact}
+              </a>
             </li>
 
+            <select
+              className="select-language"
+              value={language}
+              onChange={(e) => {
+                setLanguage(e.target.value);
+              }}
+            >
+              <option value="french">Fr</option>
+              <option value="english">En</option>
+            </select>
+
             <button className="contact-btn" onClick={() => {}}>
-              M'embaucher
+              {content.download}
             </button>
           </ul>
           <button className="menu-btn" onClick={toggleMenu}>

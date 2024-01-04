@@ -1,7 +1,7 @@
 import React from "react";
 import "./SkillCard.css";
 
-const SkillCard = ({ title, iconUrl, isActive, onClick }) => {
+const SkillCard = ({ title, iconUrl, isActive, onClick, content }) => {
   return (
     <div
       className={`skills-card ${isActive ? "active" : ""}`}

@@ -16,6 +16,14 @@
   margin: 0 auto;
 }
 
+.select-language {
+  color: #fff;
+  background: #a99df0;
+  border-radius: 0.6rem;
+  border: 1.5px solid #6751b9;
+  outline: none;
+}
+
 .header {
   display: flex;
   align-items: center;

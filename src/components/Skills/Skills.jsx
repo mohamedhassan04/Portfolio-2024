@@ -4,16 +4,18 @@ import SkillCard from "./SkillCard/SkillCard";
 import { SKILLS } from "../../utils/data";
 import SkillCardInfo from "./SkillCardInfo/SkillCardInfo";
 
-const Skills = () => {
+const Skills = ({ content }) => {
   const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
+
+  console.log(selectedSkill.title);
 
   const handleSelectSkill = (data) => {
     setSelectedSkill(data);
   };
 
   return (
-    <section className="skills-container">
-      <h5>Compétence technique</h5>
+    <section className="skills-container" id="skills">
+      <h5>{content.technicalSkills}</h5>
       <div className="skills-content">
         <div className="skills">
           {SKILLS.map((item) => (
