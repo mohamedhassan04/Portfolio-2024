@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import "./ContactForm.css";
 import emailjs from "@emailjs/browser";
 
-const ContactForm = () => {
+const ContactForm = ({ content }) => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -29,8 +29,18 @@ const ContactForm = () => {
       <img src="./assets/img10.png" alt="contact" />
       <form ref={form} onSubmit={sendEmail}>
         <div className="name-container">
-          <input type="text" name="firstname" placeholder="Nom" required />
-          <input type="text" name="lastname" placeholder="Prénom" required />
+          <input
+            type="text"
+            name="firstname"
+            placeholder={content.lastname}
+            required
+          />
+          <input
+            type="text"
+            name="lastname"
+            placeholder={content.firstname}
+            required
+          />
         </div>
         <input type="email" name="email" placeholder="Email" required />
         <textarea
@@ -41,7 +51,7 @@ const ContactForm = () => {
           required
         />
 
-        <button type="submit">Envoyer</button>
+        <button type="submit">{content.envoyer}</button>
       </form>
     </div>
   );

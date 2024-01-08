@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
 import ContactForm from "./ContactForm/ContactForm";
 
-const ContactMe = () => {
+const ContactMe = ({ content }) => {
   return (
     <section className="contact-container" id="contact">
       <h5>Contact</h5>
@@ -34,7 +34,7 @@ const ContactMe = () => {
           />
         </div>
         <div style={{ flex: 1 }}>
-          <ContactForm />
+          <ContactForm content={content} />
         </div>
       </div>
     </section>

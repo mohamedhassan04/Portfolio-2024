@@ -19,3 +19,20 @@ html {
   margin: 0 auto;
   position: relative;
 }
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+  z-index: 999;
+  transform-origin: 0%;
+}
+
+@media (max-width: 600px) {
+  .progress-bar {
+    display: none;
+  }
+}

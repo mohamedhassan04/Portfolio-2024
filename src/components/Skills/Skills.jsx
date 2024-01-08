@@ -7,8 +7,6 @@ import SkillCardInfo from "./SkillCardInfo/SkillCardInfo";
 const Skills = ({ content }) => {
   const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
 
-  console.log(selectedSkill.title);
-
   const handleSelectSkill = (data) => {
     setSelectedSkill(data);
   };
@@ -22,6 +20,7 @@ const Skills = ({ content }) => {
             <SkillCard
               key={item.title}
               iconUrl={item.icon}
+              content={content}
               title={item.title}
               isActive={selectedSkill.title === item.title}
               onClick={() => {
@@ -32,6 +31,7 @@ const Skills = ({ content }) => {
         </div>
         <div className="skills-info">
           <SkillCardInfo
+            content={content}
             heading={selectedSkill.title}
             skills={selectedSkill.skills}
           />

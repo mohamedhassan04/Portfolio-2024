@@ -8,8 +8,59 @@
     "slogan": "Imagine a digital experience that inspires",
     "slogan2": "Backend developer and Tech-lead . Passionate about the world of web, design and new technologies, I aim to make my contribution through my creative and innovative solutions.",
     "technicalSkills": "Technical Skills",
-    "title": "Tools",
-    "softSkills": "Soft Skills"
+    "Frontend": "Frontend",
+    "Backend": "Backend",
+    "Outils": "Tools",
+    "Compétences Générales": "Soft Skills",
+    "Experience": "Work Experience",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "envoyer": "Send",
+    "campany": "Erathis IT",
+    "Tech-lead": {},
+    "work": {
+      "title": "Backend Developer",
+      "company": "Erathis IT",
+      "date": "05/2022 – 02/2023",
+      "responsabilities": [
+        "Design, develop, test and deploy RESTful APIs using NestJS and TypeScript.",
+        "Work with Docker to create consistent development, testing and production environments.",
+        "Configure and manage Postgres databases to store and retrieve data from NestJS applications.",
+        "Collaborate with frontend developers to integrate features and user interfaces.",
+        "Follow security best practices to protect user and business data."
+      ],
+      "title": "Tech-lead",
+      "company": "Erathis IT",
+      "date": "02/2023 – 12/2023",
+      "responsabilities": [
+        "Change authenfication system on using AWS Cognito tool.",
+        "Implement elasticsearch.",
+        "Implement chat bot using DialogFlow from google.",
+        "Build guidelines and create documentation to facilitate code writing and make available to the team using Jira.",
+        "Write unit tests with Jest and integration to ensure code quality.",
+        "Participate in code reviews and team meetings to improve development practices and foster innovation."
+      ]
+    },
+    "skills1": {
+      "Résolution des problèmes": "Problem Solving",
+      "Collaboration": "Collaboration",
+      "Attention aux détails": "Attention to detail",
+      "HTML5": "HTML5",
+      "CSS3": "CSS3",
+      "JavaScript": "JavaScript",
+      "React.js": "React.js",
+      "Node.js": "Node.js",
+      "Express.js": "Express.js",
+      "Nest.js": "Nest.js",
+      "PostgreSQL": "PostgreSQL",
+      "MongoDB": "MongoDB",
+      "RestAPI": "RestAPI",
+      "Swagger": "Swagger",
+      "Git & GitHub": "Git & GitHub",
+      "Visual Studio Code": "Visual Studio Code",
+      "Docker": "Docker",
+      "Jira": "Jira"
+    }
   },
   "french": {
     "home": "Acceuil",
@@ -20,7 +71,58 @@
     "slogan": "Imaginer une expérience numérique qui inspire",
     "slogan2": "Développeur backend et Tech-lead . Passionné par le monde du web, du design et des nouvelles technologies, je vise à apporter ma contribution grâce à mes solutions créatives et innovantes.",
     "technicalSkills": "Compétence Technique",
-    "tools": "Outils",
-    "softSkills": "Compétences Générales"
+    "Frontend": "Frontend",
+    "Backend": "Backend",
+    "Outils": "Outils",
+    "Compétences Générales": "Compétences Générales",
+    "Experience": "Expérience Professionelle",
+    "firstname": "Prénom",
+    "lastname": "Nom",
+    "envoyer": "Envoyer",
+    "campany": "Erathis IT",
+
+    "work": {
+      "title": "Développeur Backend",
+      "company": "Erathis IT",
+      "date": "05/2022 – 02/2023",
+      "responsabilities": [
+        "Concevoir, développer, tester et déployer des API RESTful en utilisant NestJS et TypeScript.",
+        "Travailler avec Docker pour créer des environnements de développement, de test et de production cohérents.",
+        "Configurer et gérer des bases de données Postgres pour stocker et récupérer des données à partir des applications NestJS.",
+        "Collaborer avec les développeurs frontend pour intégrer des fonctionnalités et des interfaces utilisateur.",
+        "Suivre les bonnes pratiques en matière de sécurité pour protéger les données des utilisateurs et des entreprises."
+      ],
+      "title": "Tech-lead",
+      "company": "Erathis IT",
+      "date": "02/2023 – 12/2023",
+      "responsabilities": [
+        "Changer le système d'authentification en utilisant l'outil Cognito de AWS.",
+        "Implémenter Elasticsearch.",
+        "Implémenter un chatbot en utilisant DialogFlow de Google.",
+        "Construire les directives et créer la documentation pour faciliter l'écriture du code et la mettre à disposition de l'équipe en utilisant Jira.",
+        "Écrire des tests unitaires avec Jest et d'intégration pour garantir la qualité du code.",
+        "Participer à des revues de code et à des réunions d'équipe pour améliorer les pratiques de développement et favoriser l'innovation."
+      ]
+    },
+    "skills1": {
+      "Résolution des problèmes": "Résolution des problèmes",
+      "Collaboration": "Collaboration",
+      "Attention aux détails": "Attention aux détails",
+      "HTML5": "HTML5",
+      "CSS3": "CSS3",
+      "JavaScript": "JavaScript",
+      "React.js": "React.js",
+      "Node.js": "Node.js",
+      "Express.js": "Express.js",
+      "Nest.js": "Nest.js",
+      "PostgreSQL": "PostgreSQL",
+      "MongoDB": "MongoDB",
+      "RestAPI": "RestAPI",
+      "Swagger": "Swagger",
+      "Git & GitHub": "Git & GitHub",
+      "Visual Studio Code": "Visual Studio Code",
+      "Docker": "Docker",
+      "Jira": "Jira"
+    }
   }
 }
