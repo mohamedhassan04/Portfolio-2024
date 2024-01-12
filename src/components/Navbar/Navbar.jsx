@@ -57,8 +57,10 @@ const Navbar = ({ setLanguage, content, language }) => {
               <option value="english">En</option>
             </select>
 
-            <button className="contact-btn" onClick={() => {}}>
-              {content.download}
+            <button className="contact-btn">
+              <a href="CV.pdf" download="CV.pdf">
+                {content.download}
+              </a>
             </button>
           </ul>
           <button className="menu-btn" onClick={toggleMenu}>

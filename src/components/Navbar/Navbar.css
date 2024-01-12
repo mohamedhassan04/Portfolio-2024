@@ -95,6 +95,11 @@
   transition: all 0.5s ease;
 }
 
+.contact-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .contact-btn:hover {
   color: #a993fe;
   background: #000;
