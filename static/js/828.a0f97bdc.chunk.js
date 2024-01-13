@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[828],{828:(e,s,o)=>{o.r(s),o.d(s,{default:()=>l});o(791);var a=o(184);const l=()=>(0,a.jsx)("div",{className:"footer",children:"\xa9 2024 Mohamed Hassan | Web Dev"})}}]);
+//# sourceMappingURL=828.a0f97bdc.chunk.js.map

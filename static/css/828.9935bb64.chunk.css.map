@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/828.9935bb64.chunk.css","mappings":"AAAA,QAGE,iDAA4D,CAF5D,eAAiB,CAGjB,YAAa,CAFb,iBAGF","sources":["components/Footer/Footer.css"],"sourcesContent":[".footer {\r\n  font-size: 0.8rem;\r\n  text-align: center;\r\n  background: linear-gradient(90deg, #3d3072 0%, #423477 100%);\r\n  padding: 1rem;\r\n}\r\n"],"names":[],"sourceRoot":""}
