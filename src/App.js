@@ -53,7 +53,7 @@ function App() {
           <Hero content={content} />
           <Skills content={content} />
           <WorkExperience content={content} />
-          <ContactMe content={content} />
+          <ContactMe content={content} language={language} />
         </div>
         <ScrollToTop />
         <Footer />

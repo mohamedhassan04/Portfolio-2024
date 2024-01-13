@@ -1,7 +1,7 @@
 import React from "react";
 import "./ExperienceCard.css";
 
-const ExperienceCard = ({ details, content }) => {
+const ExperienceCard = ({ details }) => {
   return (
     <div className="work-experience-card">
       <h6>{details.title}</h6>

@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
 
-const WorkExperience = ({ content }) => {
+const WorkExperience = ({ content, language }) => {
   const sliderRef = useRef();
 
   /* Carousel Settings */
@@ -49,7 +49,7 @@ const WorkExperience = ({ content }) => {
         </div>
         <Slider ref={sliderRef} {...settings}>
           {WORK_EXPERIENCE.map((item) => (
-            <ExperienceCard key={item.title} details={item} content={content} />
+            <ExperienceCard key={item.title} details={item} />
           ))}
         </Slider>
       </div>
