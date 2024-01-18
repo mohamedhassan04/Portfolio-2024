@@ -1,4 +1,5 @@
 .experience-container {
+  scroll-margin-top: 100px;
   margin: 4rem 0;
   position: relative;
 }
